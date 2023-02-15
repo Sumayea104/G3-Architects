@@ -89,6 +89,15 @@ header {
 /* ---------------------banner end-------------------- */
 .mid-container {
     display: flex;
+    margin-top: 85px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-container-img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
 }
 
 .mid-section-left {}
@@ -104,16 +113,16 @@ header {
     margin-top: 15px;
     gap: 15px;
 }
-.mid-section-right{
-    
-}
+
+.mid-section-right {}
+
 .mid-section-right-h1 {
     font-weight: 500;
     font-size: 45px;
     width: 468px;
     height: 106px;
     margin-left: 76px;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .mid-section-right-info {
@@ -132,7 +141,8 @@ header {
 .features {
     color: #FF900E;
 }
-.mid-section-right-btn{
+
+.mid-section-right-btn {
     width: 180px;
     height: 64px;
     color: #FFFFFF;
