@@ -41,7 +41,7 @@ header {
 }
 
 /* ----------------banner-------------------- */
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +81,67 @@ header {
     width: 1440px;
     height: 700px;
     border-radius: 8px;
+
+
+
 }
 
 /* ---------------------banner end-------------------- */
+.mid-container {
+    display: flex;
+}
+
+.mid-section-left {}
+
+.top-section {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.bottom-section {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+.mid-section-right{
+    
+}
+.mid-section-right-h1 {
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    margin-left: 76px;
+    margin-top: 250px;
+}
+
+.mid-section-right-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
+    height: 78px;
+    margin-left: 73px;
+}
+
+.dark03 {
+    color: #727272;
+}
+
+.features {
+    color: #FF900E;
+}
+.mid-section-right-btn{
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+    margin-left: 73px;
+}
