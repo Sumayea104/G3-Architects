@@ -138,7 +138,7 @@ header {
     color: #727272;
 }
 
-.features {
+.features-span {
     color: #FF900E;
 }
 
@@ -154,4 +154,25 @@ header {
     border: none;
     margin-top: 32px;
     margin-left: 73px;
+}
+
+.features-container {
+    width: 1440px;
+    height: 1059px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 144px;
+    margin-left: 244px;
+}
+
+.features-description {
+    width: 586px;
+    height: 982px;
+    margin-right: 54px;
+}
+
+.features-img {
+    width: 800px;
+    height: 1059px;
 }
