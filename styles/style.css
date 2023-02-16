@@ -165,6 +165,7 @@ header {
     justify-content: center;
     margin-top: 144px;
     margin-left: 244px;
+    gap: 20px;
 }
 
 .features-description {
@@ -173,11 +174,65 @@ header {
     margin-right: 54px;
     padding: 30px;
 }
-.feature-hr{
+
+.feature-hr {
     border-left: 5px solid #FF900E;
 }
 
 .features-img {
     width: 800px;
     height: 1059px;
+}
+
+.item {
+    width: 586px;
+    height: 171px;
+    padding: 10px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+.item-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.item-info {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* -------------------------
+exp-btn
+----------------------- */
+.experience {
+    width: 342px;
+    height: 200px;
+    margin-top: -50px;
+    margin:0 auto;
+}
+
+.exp-btn {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-span {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.exp-btn p {
+    font-weight: 500;
+    font-size: 25px;
 }
