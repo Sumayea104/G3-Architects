@@ -171,6 +171,10 @@ header {
     width: 586px;
     height: 982px;
     margin-right: 54px;
+    padding: 30px;
+}
+.feature-hr{
+    border-left: 5px solid #FF900E;
 }
 
 .features-img {
