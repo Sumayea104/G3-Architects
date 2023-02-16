@@ -236,3 +236,38 @@ exp-btn
     font-weight: 500;
     font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------
+footer
+------------------ */
+.footer{
+    color: #424242;
+    background: #FFF4E7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 8px;
+width: 1440px;
+height: 100px;
+margin-left: 242px;
+margin-bottom: 200px;
+}
